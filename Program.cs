@@ -19,7 +19,7 @@ public class Program
     {
         var tomorrow = DateTime.Now.AddDays(1).ToString("MMMM dd, yyyy");
         var messageBuilder = new StringBuilder();
-        messageBuilder.AppendLine(":bell: **Test Reminder** :bell:")
+        messageBuilder.AppendLine(":bell: **Reminder** :bell:")
                   .AppendLine($"Hey @everyone! The Slaggers are convening at **6 PM tomorrow** ({tomorrow}).")
                   .AppendLine()
                   .AppendLine("Please react with one of the following emojis to confirm your attendance:")
