@@ -29,7 +29,8 @@ public class Program
                   .AppendLine()
                   .AppendLine("**Action items:**")
                   .AppendLine("- What is our activity?")
-                  .AppendLine("- Where are we meeting?");
+                  .AppendLine("- Where are we meeting?")
+                  .AppendLine("- What are the dinner plans?");
         var message = await irodson_channel.SendMessageAsync(messageBuilder.ToString());
         await message.AddReactionAsync(new Emoji("✅"));  // Yes
         await message.AddReactionAsync(new Emoji("❓"));  // Maybe
